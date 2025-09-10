@@ -1,8 +1,8 @@
 .testimonials {
-    width: min(100vw, 69.375rem);
+    width: min(100vw - 3rem, 69.375rem);
     display: grid;
     gap: 1.5rem 1.875rem;
-    padding: 1.5rem;
+    padding-block: 1.5rem;
 
     &__item {
         background-color: var(--color-white);
