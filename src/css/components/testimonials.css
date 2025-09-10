@@ -20,6 +20,7 @@
     }
 
     &__author {
+        font-weight: var(--font-semi-bold);
         margin-inline-start: -0.125rem;
         display: flex;
         flex-direction: column;
