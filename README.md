@@ -1,80 +1,88 @@
-# Frontend Mentor - Testimonials grid section solution
+## Frontend Mentor - Testimonials grid section solution
 
 This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7).
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+<p>
+  <a href="https://www.frontendmentor.io/solutions/pixel-perfect-with-html-and-css-6aDYE3MWi2">
+    <img
+      alt="Solution post"
+      src="https://img.shields.io/badge/Frontendmentor-blue?label=Solution%20on"
+    /></a>
+  <a href="https://haquanq-frontendmentor.github.io/testimonials-grid-section/">
+    <img
+      alt="Live demo"
+      src="https://img.shields.io/badge/Demo-teal?label=Live"
+    /></a>
+  <a href="./LICENSE"
+    ><img
+      allt="MIT License"
+      src="https://img.shields.io/badge/MIT-blue?label=license"
+  /></a>
+</p>
 
-- [Project overview](#rocket-project-overview)
-- [My workflow](#boat-my-workflow)
-- [How to work in this repository](#astronaut-how-to-work-in-this-repository)
-- [License](#page_with_curl-license)
+## Table of Contents
 
-## :rocket: Project overview
+- [Project Overview](#sunrise-project-overview)
+- [Tech Stack and Approach](#stars-tech-stack-and-approach)
+- [Local Development](#leaves-local-development)
+- [Deployment](#maple_leaf-deployment)
 
-### Challenge requirements
+## :sunrise: Project Overview
 
-Users should be able to:
+### Challenge Requirements
 
 - View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
 
-### Implemented features
+### Status
 
-Accessibility features:
+Accessibility
 
-| Feature                                        | Progress               |
-| ---------------------------------------------- | ---------------------- |
-| Reponse optimally across different screen size | [ :white_check_mark: ] |
+- [x] Responsive accross different screen sizes
 
-### Screenshots
+### Preview (Desktop)
 
-![](./.docs/design/desktop-design.jpg)
+![](./docs/design/desktop-design.jpg)
 
-## :boat: My workflow
+## :stars: Tech Stack and Approach
+
+### Built With
+
+- **HTML5** – Semantic structure
+- **CSS Grid & Flexbox** – Layout
+- **PostCSS** – Nested rules, custom media queries, future CSS features, minification
+- **Stylelint** – CSS linting, code style consistency
+- **Vite** - Fast development server, production build and easy configuration
 
 ### Approach
 
-Developed with mobile-first workflow.
+- Mobile-first workflow for better performance on smaller devices
+- Accessibility guided by [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/)
 
-### Built with
+## :leaves: Local Development
 
-| Tool         | Note                     |
-| ------------ | ------------------------ |
-| `JavaScript` | Programming language     |
-| `HTML`       | Standard markup language |
-| `CSS`        | Style sheet language     |
+### Prerequisites
 
-## :astronaut: Working in `fm-testimonials-grid-section` repository
+Install the following:
 
-### Presequisites
+- Git (latest LTS recommended)
+- Node.js (latest LTS recommended)
 
-Having these tools installed:
-
-- Git (prefer lastest LTS version)
-- NodeJS (prefer latest LTS version)
-
-### Clone this project to your machine
-
-Open new terminal, run the following command:
+### Setup
 
 ```
-git clone https://github.com/haquanq/fm-testimonials-grid-section.git
-```
-
-Then, run `npm install` to install all dependencies.
-
-```
+git clone https://github.com/haquanq-frontendmentor/testimonials-grid-section.git
+cd testimonials-grid-section
 npm install
 ```
 
-### Development workflow
-
-In terminal, run `npm run dev` to start development server:
+### Start Development Server
 
 ```
 npm run dev
 ```
 
-## :page_with_curl: License
+## :maple_leaf: Deployment
 
-This project follows [MIT License](./LICENSE). **Do not** use this project as your solution on [Frontend mentor](https://www.frontendmentor.io/solutions) as this will prove you are too lazy to complete anything in your life and you are a moron.
+Deployed to Github Pages via Github Actions (manually triggered).

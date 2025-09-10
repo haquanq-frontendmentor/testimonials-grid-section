@@ -1,0 +1,22 @@
+:root {
+    --color-violet-300: hsl(266, 71%, 68%);
+    --color-violet-500: hsl(263, 55%, 52%);
+    --color-very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --color-very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-gray: hsl(0, 0%, 81%);
+    --color-light-grayish-blue: hsl(210, 46%, 95%);
+
+    --font-main: "Barlow Semi Condensed", system-ui, sans-serif;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    --text-body: 0.8125rem;
+    --text-heading-2: 1.25rem;
+
+    --leading-none: 1;
+    --leading-paragraph: 1.125rem;
+    --leading-heading: 1.5rem;
+
+    --tracking-heading: 0.005em;
+}
