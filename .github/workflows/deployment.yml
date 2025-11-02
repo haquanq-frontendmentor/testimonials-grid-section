@@ -1,7 +1,12 @@
 name: Deploy to github-pages
 
 on:
-  workflow_dispatch:
+  push:
+    paths:
+      - "src/**"
+      - "vite.config.js"
+      - "postcss.cofig.js"
+      - "browserslistrc"
 
 permissions:
   contents: read
