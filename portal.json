@@ -1,0 +1,15 @@
+{
+  "name": "Testimonials Grid Section",
+  "featured": false,
+  "colors:": {
+    "brand": "#733FC8"
+  },
+  "images": {
+    "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/testimonials-grid-section/main/docs/preview.jpg"
+  },
+  "frontendmentor": {
+    "difficulty": "junior",
+    "challengeUrl": "https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7",
+    "solutionUrl": "https://www.frontendmentor.io/solutions/pixel-perfect-with-html-and-css-6aDYE3MWi2"
+  }
+}
